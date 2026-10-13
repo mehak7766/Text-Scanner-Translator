@@ -7,6 +7,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   // Set system UI overlay style for transparent status bar & clean look
+  //
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
